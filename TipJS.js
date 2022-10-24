@@ -2,7 +2,6 @@ const sliders = document.querySelectorAll("input[type='range']");
 sliders.forEach(function(slider){
     slider.addEventListener("input",TipCalculate);
 });
-
 const billInput = document.getElementById("bill");
 billInput.addEventListener("change",TipCalculate);
 function TipCalculate(){
